@@ -1,0 +1,31 @@
+{
+  "name": "@asaidimu/browser-store",
+  "version": "1.0.0",
+  "description": "A simple wrapper around localstorage and session storage",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "./*"
+  ],
+  "keywords": [
+    "tooling"
+  ],
+  "author": "Saidimu <47994458+asaidimu@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaidimu/.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asaidimu//issues"
+  },
+  "homepage": "https://github.com/asaidimu/#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  }
+}

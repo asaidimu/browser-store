@@ -1,0 +1,56 @@
+{
+  "name": "@asaidimu/browser-store",
+  "version": "1.0.0",
+  "description": "A simple wrapper around localstorage and session storage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ci": "bun install",
+    "clean": "[ -e ./dist ] && rm -rf ./dist || echo No dist",
+    "prebuild": "bun clean",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "postbuild": "cp README.md LICENSE.md ./dist && cp ./dist.package.json ./dist/package.json"
+  },
+  "keywords": [
+  ],
+  "author": "Saidimu <47994458+asaidimu@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^7.0.0"
+  },
+    "release": {
+        "branches": [
+            "main"
+        ],
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            [
+                "@semantic-release/changelog",
+                {
+                    "changelogFile": "CHANGELOG.md"
+                }
+            ],
+            [
+                "@semantic-release/npm",
+                {
+                    "pkgRoot": "dist"
+                }
+            ],
+            [
+                "@semantic-release/git",
+                {
+                    "assets": [
+                        "CHANGELOG.md",
+                        "dist.package.json"
+                    ],
+                    "message": "chore(release): Release v${nextRelease.version}\n\n${nextRelease.notes}"
+                }
+            ]
+        ]
+    }
+}

@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/asaidimu/browser-store/compare/v1.0.0...v1.0.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* update readme and license files ([6065e9a](https://github.com/asaidimu/browser-store/commit/6065e9a52ce5cd138d2184675f45addecfebf03d))
+
 # 1.0.0 (2024-10-29)
 
 

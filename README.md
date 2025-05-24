@@ -1,6 +1,8 @@
 # @asaidimu/browser-store
 ## TypeScript Local Storage Manager
 
+⚠️ WARNING: This package is deprecated and will no longer receive updates or support. Please look into '@asaidimu/utils' for an alternative. Use of this package in new projects is discouraged.
+
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://www.typescriptlang.org/)
 

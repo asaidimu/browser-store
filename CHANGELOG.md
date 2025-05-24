@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/asaidimu/browser-store/compare/v1.0.1...v1.0.2) (2025-05-24)
+
+
+### Bug Fixes
+
+* deprecate project ([8e5eef6](https://github.com/asaidimu/browser-store/commit/8e5eef65ef4665e392d10a146f1bb2663585730a))
+
 ## [1.0.1](https://github.com/asaidimu/browser-store/compare/v1.0.0...v1.0.1) (2024-10-29)
 
 

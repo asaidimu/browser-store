@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asaidimu/.git"
+    "url": "git+https://github.com/asaidimu/browser-store.git"
   },
   "bugs": {
-    "url": "https://github.com/asaidimu//issues"
+    "url": "https://github.com/asaidimu/browser-store/issues"
   },
-  "homepage": "https://github.com/asaidimu/#readme",
+  "homepage": "https://github.com/asaidimu/browser-store/#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
